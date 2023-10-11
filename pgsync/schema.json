@@ -1,11 +1,16 @@
 [
   {
     "database": "postgres",
-    "index": "product",
+    "index": "vacancy",
     "nodes": {
-      "table": "product",
-      "schema": "public",
-      "columns": []
+      "table": "vacancies"
+    }
+  },
+  {
+    "database": "postgres",
+    "index": "resume",
+    "nodes": {
+      "table": "resumes"
     }
   }
 ]
